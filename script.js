@@ -47,7 +47,7 @@ const handleResultValidation = () => {
     }
 
     if (roundWon) {
-        statusDisplay.innerText = `Player ${currentPlayer} wins!`;
+        statusDisplay.innerText = `Player ${currentPlayer} wins!  Game ended`;
         gameActive = false;
         return;
     }
