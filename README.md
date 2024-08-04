@@ -17,7 +17,7 @@ This project is a web-based Tic-Tac-Toe game that allows two players to play the
 
 ## Demo
 
-You can see a live demo of the game [here](#).
+You can see a live demo of the game [here](https://thakur2002.github.io/Tic-Tac-Toe-Game/).
 
 ## Installation
 To get a local copy up and running, follow these steps:
