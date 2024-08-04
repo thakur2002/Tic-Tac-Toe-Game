@@ -73,6 +73,7 @@ const handleCellClick = (event) => {
     currentPlayer === 'X' ? xsound.play() : osound.play();
     gameState[clickedCellIndex] = currentPlayer;
     clickedCell.innerText = currentPlayer;
+    
     handleResultValidation();
 };
 
