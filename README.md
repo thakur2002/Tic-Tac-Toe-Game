@@ -14,7 +14,11 @@ This project is a web-based Tic-Tac-Toe game that allows two players to play the
 - Displays the current player's turn
 - Checks for win, draw, or ongoing game status
 - Option to restart the game
-
+**Sound effects**:
+  - Different sound for Player X and Player O's moves
+  - Sound for the reset button
+  - Sound when clicking on an already filled cell or when the game has ended
+    
 ## Demo
 
 You can see a live demo of the game [here](https://thakur2002.github.io/Tic-Tac-Toe-Game/).
