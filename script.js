@@ -11,7 +11,7 @@ const xsound=new Audio("./sounds/blue.mp3");
 const osound=new Audio("./sounds/green.mp3");
 const wrongsound=new Audio("./sounds/wrong.mp3");
 const resetsound=new Audio("./sounds/yellow.mp3");
-
+const finishsound=new Audio("./sounds/red.mp3");
 const winningConditions = [
     [0, 1, 2],
     [3, 4, 5],
@@ -47,6 +47,7 @@ const handleResultValidation = () => {
     }
 
     if (roundWon) {
+        finishsound.play();
         statusDisplay.innerText = `Player ${currentPlayer} wins!  Game ended`;
         gameActive = false;
         return;
@@ -54,6 +55,7 @@ const handleResultValidation = () => {
 
     let roundDraw = !gameState.includes('');
     if (roundDraw) {
+        finishsound.play()
         statusDisplay.innerText = 'Game is a draw!';
         gameActive = false;
         return;
