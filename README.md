@@ -1,6 +1,6 @@
 # Tic-Tac-Toe
 
-A simple, responsive Tic-Tac-Toe game implemented using HTML, CSS, and JavaScript.
+A simple, responsive Tic-Tac-Toe game implemented using HTML5, CSS3, and JavaScript.
 
 
 ## Description
